@@ -7,8 +7,8 @@ require "acts_as_favoritable/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_favoritable"
   s.version     = ActsAsFavoritable::VERSION
-  s.authors     = ["Qi Li"]
-  s.email       = ["cloudbsd@gmail.com"]
+  s.authors     = ["Qi Li", "James"]
+  s.email       = ["cloudbsd@gmail.com", "james@mercstudio.com"]
   s.homepage    = "http://github.com/cloudbsd/acts_as_favoritable"
   s.summary     = "Acts As Favoritable Gem."
   s.description = "ActsAsFavoritable gem provides a simple way to track users favorites."
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.0"
+  s.add_dependency "rails", ">= 4.0.0"
 
   s.add_development_dependency "sqlite3"
 end
